@@ -8,10 +8,9 @@ import TimelineSeparator from "@mui/lab/TimelineSeparator";
 import TimelineDot from "@mui/lab/TimelineDot";
 import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
-import React, {useEffect, useRef} from "react";
+import React from "react";
 import {makeStyles} from "@mui/styles";
-import {colors} from "./values";
-import {inspect} from "util";
+
 
 import './styles.css';
 
@@ -54,7 +53,7 @@ const useStyles = makeStyles({
 const Background = () => {
     const classes = useStyles();
 
-    const {ref: edRef, inView: edInView} = useInView({"triggerOnce": true});
+    // const {ref: edRef, inView: edInView} = useInView({"triggerOnce": true});
     const {ref: bgRef, inView: bgInView} = useInView({"triggerOnce": true});
 
 

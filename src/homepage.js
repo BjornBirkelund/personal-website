@@ -1,16 +1,11 @@
 import React from 'react';
 import layer2 from './layer2.svg';
-import layer3 from './layer3.svg';
 import layer4 from './layer4.svg';
-import white_parallax from './white_parallax.svg';
-import other_white_parallax from './other_white_parallax.svg';
 import white_parallax_new from './white_parallax_new.svg';
 import {makeStyles}  from "@mui/styles";
 import {Tab, Tabs, Typography} from "@mui/material";
-import { SxProps } from "@mui/material/styles";
 import {colors} from "./values";
 import Background from "./background";
-import {useInView} from "react-intersection-observer";
 
 // '#DA3E67'
 // '#B7B7B7FF'
