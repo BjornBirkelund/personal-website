@@ -1,7 +1,7 @@
 import React from 'react';
-import layer2 from './images/layer2.svg';
-import layer4 from './images/layer4.svg';
-import skills_section from './images/skills_section.svg';
+import layer2 from './images/blue-layer2.svg';
+import layer4 from './images/blue-orange-layer4.svg';
+import skills_section from './images/skills-section-orange.svg';
 import {makeStyles}  from "@mui/styles";
 import {Tab, Tabs, Typography} from "@mui/material";
 import {colors} from "./values";
@@ -99,7 +99,7 @@ const Homepage = () => {
                         zIndex: 2,
                     }}/>
                     <div id="skills" className={classes.centered} style={{height: 100, width: '100%', backgroundColor: 'white'}}>
-                        <Typography style={{fontSize: '5vw', fontWeight: 900, zIndex: 2, color: colors.darkPink}}>Skills</Typography>
+                        <Typography style={{fontSize: '5vw', fontWeight: 900, zIndex: 2, color: colors.lightOrink}}>Skills</Typography>
                     </div>
                     <div style={{
                         // aspectRatio: '960/300',

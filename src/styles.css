@@ -1,15 +1,33 @@
-.test-2>.makeStyles-centered-58>div {
-    animation: fadeInUp 1000ms both
+:root {
+    --black: #202731;
+
+    /*purple to orange*/
+    --dark-pink: #C62267;
+    --light-pink: #DA3E67;
+    --dark-orange: #EB5967;
+    --light-orange: #FA7269;
+
+    --light-orink: #E9758B;
+
+    /*light blue to dark blue*/
+    --lightest-blue: #4facf7;
+    --light-blue: #1c97fd;
+    --dark-blue: #0080fe;
+    --darkest-blue: #0066ff;
+
+    /*dark blue to white*/
+    /*--darkest-blue: #0066ff;*/
 }
 
-.test {
-    background-color: black;
+
+.test-2>.makeStyles-centered-58>div {
+    animation: fadeInUp 1000ms both
 }
 
 .background-container {
     height: 1600px;
     width: 100vw;
-    background: #C62267;
+    background: var(--darkest-blue);
 }
 
 .background-card {

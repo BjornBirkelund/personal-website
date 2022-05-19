@@ -12,6 +12,7 @@ import React from "react";
 import {makeStyles} from "@mui/styles";
 
 import './styles.css';
+import {colors} from "./values";
 
 const useStyles = makeStyles({
     section: {
@@ -79,7 +80,8 @@ const Background = () => {
                 <div style={{
                     height: '107vh', width: '65vw',
                     borderRadius: 30,
-                    boxShadow: '31px 31px 62px #981a4f, -31px -31px 62px #f42a7f',
+                    background: colors.darkBlue,
+                    boxShadow: '31px 31px 62px #0057d9, -31px -31px 62px #0075ff',
                 }}>
                     <Timeline style={{color: 'black', marginTop: 25}} position="alternate">
                         <TimelineItem>
