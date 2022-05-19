@@ -87,7 +87,7 @@ const Homepage = () => {
                     <Background/>
                 </div>
             </div>
-                <div style={{position: 'relative', zIndex: 2}}>
+                <div style={{position: 'relative', zIndex: 2, margin: '40px 0px'}}>
                     <div style={{
                         // filter: 'drop-shadow(0 -1px 35px rgba(255,255,255,.25))',
                         aspectRatio: '960/300',
@@ -98,8 +98,8 @@ const Homepage = () => {
                         backgroundSize: 'cover',
                         zIndex: 2,
                     }}/>
-                    <div id="skills" className={classes.centered} style={{height: 300, width: '100%', backgroundColor: 'white'}}>
-                        <Typography style={{fontSize: '5vw', fontWeight: 900, margin: '130px 0px', zIndex: 2, color: colors.darkPink}}>Skills</Typography>
+                    <div id="skills" className={classes.centered} style={{height: 100, width: '100%', backgroundColor: 'white'}}>
+                        <Typography style={{fontSize: '5vw', fontWeight: 900, zIndex: 2, color: colors.darkPink}}>Skills</Typography>
                     </div>
                     <div style={{
                         // aspectRatio: '960/300',

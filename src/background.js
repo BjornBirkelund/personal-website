@@ -77,7 +77,7 @@ const Background = () => {
             </div>
             <div ref={bgRef} className={`${classes.centered} ${bgInView ? 'entry-animation' : ''}`}>
                 <div style={{
-                    height: '115vh', width: '65vw',
+                    height: '107vh', width: '65vw',
                     borderRadius: 30,
                     boxShadow: '31px 31px 62px #981a4f, -31px -31px 62px #f42a7f',
                 }}>
