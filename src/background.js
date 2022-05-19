@@ -11,7 +11,6 @@ import TimelineContent from "@mui/lab/TimelineContent";
 import React from "react";
 import {makeStyles} from "@mui/styles";
 
-
 import './styles.css';
 
 const useStyles = makeStyles({
@@ -74,11 +73,11 @@ const Background = () => {
     return (
         <div className="background-container">
             <div className={classes.centered} id="background">
-                <Typography style={{fontSize: '5vw', fontWeight: 900, color: 'white', margin: '130px 0px', zIndex: 1}}>Educational Journey</Typography>
+                <Typography style={{fontSize: '5vw', fontWeight: 900, color: 'white', margin: '60px 0px', zIndex: 1}}>Educational Journey</Typography>
             </div>
             <div ref={bgRef} className={`${classes.centered} ${bgInView ? 'entry-animation' : ''}`}>
                 <div style={{
-                    height: 785, width: 1000,
+                    height: '115vh', width: '65vw',
                     borderRadius: 30,
                     boxShadow: '31px 31px 62px #981a4f, -31px -31px 62px #f42a7f',
                 }}>
@@ -86,7 +85,7 @@ const Background = () => {
                         <TimelineItem>
                             <TimelineOppositeContent color="white">
                                 <Typography style={{fontSize: 16}}>
-                                    After graduating high school I moved to Norway with the goal of learning Norwegian to be able to speak with family and apply to the University of Oslo.
+                                    After graduating high school I moved to Norway with the goal of learning Norwegian to be able to speak with family and apply to the University of Oslo, where fluency is required.
                                     <br/><br/>Took a fast-paced Norwegian Course followed by a challenging Norwegian test to
                                     prove my fluency in Norwegian to qualify to apply to the University.<br/><br/>
                                 </Typography>
