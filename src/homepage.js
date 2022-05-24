@@ -90,7 +90,7 @@ const Homepage = () => {
                 <div style={{position: 'relative', zIndex: 2, margin: '40px 0px'}}>
                     <div style={{
                         // filter: 'drop-shadow(0 -1px 35px rgba(255,255,255,.25))',
-                        aspectRatio: '960/300',
+                        aspectRatio: '960/350',
                         width: '100%',
                         backgroundImage: `url(${layer4})`,
                         backgroundRepeat: 'no-repeat',
