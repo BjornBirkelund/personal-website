@@ -83,7 +83,7 @@ const Homepage = () => {
                 backgroundSize: 'cover',
                 zIndex: 2,
                 }}/>
-                <div style={{height: 1100, width: '100vw', background: colors.darkPink}}>
+                <div style={{height: '160vh', width: '100vw', background: colors.darkPink}}>
                     <Background/>
                 </div>
             </div>

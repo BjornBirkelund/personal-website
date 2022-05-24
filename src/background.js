@@ -12,7 +12,7 @@ import React from "react";
 import {makeStyles} from "@mui/styles";
 
 import './styles.css';
-import {colors} from "./values";
+// import {colors} from "./values";
 
 const useStyles = makeStyles({
     section: {
@@ -77,16 +77,11 @@ const Background = () => {
                 <Typography style={{fontSize: '5vw', fontWeight: 900, color: 'white', margin: '60px 0px', zIndex: 1}}>Educational Journey</Typography>
             </div>
             <div ref={bgRef} className={`${classes.centered} ${bgInView ? 'entry-animation' : ''}`}>
-                <div style={{
-                    height: '107vh', width: '65vw',
-                    borderRadius: 30,
-                    background: colors.darkBlue,
-                    boxShadow: '31px 31px 62px #0057d9, -31px -31px 62px #0075ff',
-                }}>
-                    <Timeline style={{color: 'black', marginTop: 25}} position="alternate">
+                <div className='background-card'>
+                    <Timeline style={{color: 'black', margin: '1.9vw 0vw', padding: '0 1vw'}} position="alternate">
                         <TimelineItem>
                             <TimelineOppositeContent color="white">
-                                <Typography style={{fontSize: 16}}>
+                                <Typography style={{fontSize: '1.03vw'}}>
                                     After graduating high school I moved to Norway with the goal of learning Norwegian to be able to speak with family and apply to the University of Oslo, where fluency is required.
                                     <br/><br/>Took a fast-paced Norwegian Course followed by a challenging Norwegian test to
                                     prove my fluency in Norwegian to qualify to apply to the University.<br/><br/>
@@ -97,13 +92,13 @@ const Background = () => {
                                 <TimelineConnector />
                             </TimelineSeparator>
                             <TimelineContent>
-                                <Typography style={{fontWeight: 900}} variant='h3'>The Move</Typography>
-                                <Typography style={{fontWeight: 900}} variant='h6'>Fall 2018</Typography>
+                                <Typography style={{fontWeight: 900, fontSize: '3.4vw'}}>The Move</Typography>
+                                <Typography style={{fontWeight: 900, fontSize: '1.2vw'}}>Fall 2018</Typography>
                             </TimelineContent>
                         </TimelineItem>
                         <TimelineItem>
                             <TimelineOppositeContent color="white">
-                                <Typography style={{fontSize: 16}}>Bachelor in Computer Science centered around design
+                                <Typography style={{fontSize: '1.03vw'}}>Bachelor in Computer Science centered around design
                                     where I learned UX/UI principles and techniques as well as computer science fundamentals.<br/><br/>
                                     <b>Relevant Coursework:</b><br/>
                                     IN1010 - Object Oriented Programming<br/>
@@ -119,13 +114,13 @@ const Background = () => {
                                 <TimelineConnector />
                             </TimelineSeparator>
                             <TimelineContent>
-                                <Typography style={{fontWeight: 900}} variant='h3'>University of Olso</Typography>
-                                <Typography style={{fontWeight: 900}} variant='h6'>Spring 2019 - Spring 2021</Typography>
+                                <Typography style={{fontWeight: 900, fontSize: '3.4vw'}} variant='h3'>University of Olso</Typography>
+                                <Typography style={{fontWeight: 900, fontSize: '1.2vw'}} variant='h6'>Spring 2019 - Spring 2021</Typography>
                             </TimelineContent>
                         </TimelineItem>
                         <TimelineItem>
                             <TimelineOppositeContent color="white">
-                                <Typography style={{fontSize: 16}}>
+                                <Typography style={{fontSize: '1.03vw'}}>
                                     Expanded my knowledge immensely in Computer Science, Entrepreneurship,
                                     and Blockchain/DeFi technologies.<br/><br/>
                                     <b>Relevant Coursework:</b><br/>
@@ -141,8 +136,8 @@ const Background = () => {
                                 <TimelineConnector />
                             </TimelineSeparator>
                             <TimelineContent>
-                                <Typography style={{fontWeight: 900}} variant='h3'>UC Berkeley</Typography>
-                                <Typography style={{fontWeight: 900}} variant='h6'>Fall 2021</Typography>
+                                <Typography style={{fontWeight: 900, fontSize: '3.4vw'}} variant='h3'>UC Berkeley</Typography>
+                                <Typography style={{fontWeight: 900, fontSize: '1.2vw'}} variant='h6'>Fall 2021</Typography>
                             </TimelineContent>
                         </TimelineItem>
                     </Timeline>

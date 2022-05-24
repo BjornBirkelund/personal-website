@@ -25,7 +25,7 @@
 }
 
 .background-container {
-    height: 1600px;
+    height: 170vh;
     width: 100vw;
     background: var(--darkest-blue);
 }
@@ -34,6 +34,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.background-card {
+    /*height: 100%;*/
+    /*padding-bottom: 3vh;*/
+    width: 65%;
+    border-radius: 3vw;
+    background: var(--dark-blue);
+    box-shadow: 1.55vw 1.55vw 3.1vw #0057d9, -1.55vw -1.55vw 3.1vw #0075ff;
+    /*:after {*/
+    /*    content: '';*/
+    /*    display: block;*/
+    /*    padding-top: calc(100% / (16/10));*/
+    /* }*/
 }
 
 .entry-animation {
