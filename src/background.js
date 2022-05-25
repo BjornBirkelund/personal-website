@@ -21,12 +21,6 @@ const useStyles = makeStyles({
         flexDirection: 'column',
         alignItems: 'center',
     },
-    root: {
-        '$.vertical-timeline.vertical-timeline-custom-line::before': {
-            background: '#dc1f1f',
-        },
-        height: 200,
-    },
     tabs: {
         borderRadius: 40,
     },
@@ -114,8 +108,8 @@ const Background = () => {
                                 <TimelineConnector />
                             </TimelineSeparator>
                             <TimelineContent>
-                                <Typography style={{fontWeight: 900, fontSize: '3.4vw'}} variant='h3'>University of Olso</Typography>
-                                <Typography style={{fontWeight: 900, fontSize: '1.2vw'}} variant='h6'>Spring 2019 - Spring 2021</Typography>
+                                <Typography style={{fontWeight: 900, fontSize: '3.4vw'}}>University of Olso</Typography>
+                                <Typography style={{fontWeight: 900, fontSize: '1.2vw'}}>Spring 2019 - Spring 2021</Typography>
                             </TimelineContent>
                         </TimelineItem>
                         <TimelineItem>
@@ -136,8 +130,8 @@ const Background = () => {
                                 <TimelineConnector />
                             </TimelineSeparator>
                             <TimelineContent>
-                                <Typography style={{fontWeight: 900, fontSize: '3.4vw'}} variant='h3'>UC Berkeley</Typography>
-                                <Typography style={{fontWeight: 900, fontSize: '1.2vw'}} variant='h6'>Fall 2021</Typography>
+                                <Typography style={{fontWeight: 900, fontSize: '3.4vw'}}>UC Berkeley</Typography>
+                                <Typography style={{fontWeight: 900, fontSize: '1.2vw'}}>Fall 2021</Typography>
                             </TimelineContent>
                         </TimelineItem>
                     </Timeline>

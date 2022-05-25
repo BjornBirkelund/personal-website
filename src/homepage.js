@@ -6,6 +6,7 @@ import {makeStyles}  from "@mui/styles";
 import {Tab, Tabs, Typography} from "@mui/material";
 import {colors} from "./values";
 import Background from "./background";
+import AppBar from "./app_bar";
 
 const useStyles = makeStyles({
     section: {
@@ -38,32 +39,10 @@ const useStyles = makeStyles({
 
 const Homepage = () => {
     const classes = useStyles();
-    const [value, setValue] = React.useState('one');
 
-    const handleChange = (event, newValue) => {
-        setValue(newValue);
-    };
     return (
         <body style={{margin: 0, color: 'white', background: colors.black, padding: 0, width: '100%', height: '100vh'}}>
-            <div className={classes.centered} style={{width: '100%', zIndex: 10, position: "fixed"}}>
-                <Tabs
-                    variant="scrollable"
-                    scrollButtons
-                    allowScrollButtonsMobile
-                    selectionFollowsFocus
-                    value={value}
-                    onChange={handleChange}
-                    textColor='white'
-                    indicatorColor="primary"
-                    aria-label="secondary tabs example"
-                >
-                    <Tab  component="a" href="#home" className={classes.tabs} value="one" label="Home" />
-                    <Tab  component="a" href="#background" className={classes.tabs} value="two" label="Background" />
-                    <Tab  component="a" href="#skills" className={classes.tabs} value="three" label="Skills" />
-                    <Tab  className={classes.tabs} value="four" label="Showcase" />
-                    <Tab  className={classes.tabs} value="five" label="Contact" />
-                </Tabs>
-            </div>
+            <AppBar/>
             <div id="home" style={{height: '32vh'}}/>
             <div>
                 <section className={classes.section}>
