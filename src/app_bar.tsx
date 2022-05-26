@@ -9,7 +9,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/AcUnit';
-import {Link, Slide, Tab, Tabs, useScrollTrigger} from "@mui/material";
+import {Slide, Tab, Tabs, useScrollTrigger} from "@mui/material";
 import {colors} from "./values";
 import {makeStyles} from "@mui/styles";
 
@@ -146,7 +146,7 @@ const AppBar = () => {
                         >
                             BJORN
                         </Typography>
-                        <Box sx={{ flexGrow: 1, display: {xs: 'none', md: 'flex'}, justifyContent: 'center', ml: '-8vw' }}>
+                        <Box sx={{ flexGrow: 1, display: {xs: 'none', md: 'flex'}, justifyContent: 'center', ml: '-10vw' }}>
                             <Tabs
                                 selectionFollowsFocus
                                 value={value}
