@@ -3,7 +3,7 @@ import layer2 from './images/blue-layer2.svg';
 import layer4 from './images/blue-orange-layer4.svg';
 import skills_section from './images/skills-section-orange.svg';
 import {makeStyles}  from "@mui/styles";
-import {Tab, Tabs, Typography} from "@mui/material";
+import {Typography} from "@mui/material";
 import {colors} from "./values";
 import Background from "./background";
 import AppBar from "./app_bar";
