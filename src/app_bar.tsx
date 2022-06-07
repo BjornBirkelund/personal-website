@@ -17,8 +17,8 @@ const pages = [
     {name: 'Home', href: '#home', value: 'one'},
     {name: 'Background', href:'#background', value: 'two'},
     {name: 'Skills', href: '#skills', value: 'three'},
-    {name: 'Showcase', href: '#showcase', value: 'four'},
-    {name: 'Contact', href: '#contact', value: 'five'}
+    // {name: 'Showcase', href: '#showcase', value: 'four'},
+    // {name: 'Contact', href: '#contact', value: 'five'}
 ];
 
 interface Props {
